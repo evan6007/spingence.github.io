@@ -1,2 +1,0 @@
-    last_input = model._modules['fc_linear']._modules['netblock'].in_features
-    model._modules['fc_linear']._modules['netblock'] = nn.Linear(last_input,2)
